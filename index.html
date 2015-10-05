@@ -3,6 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Matt Yeung</title>
+
+	<script type="text/javascript">
+		var preload = new Array();
+
+		preload[0] = "/img/blackjack.png";
+		preload[1] = "/img/carit.png";
+		preload[2] = "/img/gaheadshotv3.jpg";
+		preload[3] = "/img/galogo3.png";
+		preload[4] = "/img/gameinforum.png";
+		preload[5] = "/img/mackeyboard.jpg";
+		preload[6] = "/img/wallpaper.jpg";
+		preload[7] = "/img/wingit.png";
+		preload[8] = "/img/resumelogo.png";
+
+		var loadedimages = new Array();
+		for(var i=0; i<preload.length; i++) {
+		loadedimages[i] = new Image();
+		loadedimages[i].src = preload[i];
+		}
+	</script>
+
+
 	<link rel="stylesheet" href="animate.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
