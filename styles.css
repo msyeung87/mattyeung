@@ -215,5 +215,27 @@ a:active {
     color: white;
 }
 
+@media (min-width: 1550px){
+    .my-work{
+		background-color: gray;
+		padding-top: 50px;
+		padding-bottom: 120px;
+		min-height: 800px;
+		text-align: center;
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
 
+@media(min-width: 767px){
+	.my-work{
+		background-color: gray;
+		padding-top: 50px;
+		padding-bottom: 120px;
+		min-height: 800px;
+		text-align: center;
+		width: 100%;
+	}
+}
 
