@@ -127,6 +127,12 @@ body{
 	padding-left: 40px;
 	padding-top: 50px;
 }
+#coming-soon{
+	position: relative;
+	text-align: center;
+	left: -50px;
+	top: 15px;
+}
 /*.car-it{
 	background: url(./img/carit.png);
 	height: 810%;
@@ -226,6 +232,8 @@ a:active {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
+	
+	
 }
 
 @media(min-width: 767px){
