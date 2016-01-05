@@ -201,6 +201,13 @@ body{
 	margin-left: 30%;
 	margin-right: 30%;
 }
+.freelance{
+	min-height: 650px;
+	text-align: center;
+	padding-top: 85px;
+	margin-bottom: 90px;
+	background-color: gray;
+}
 
 a:link {
     color: white;
