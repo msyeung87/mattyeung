@@ -68,7 +68,8 @@ body{
 }
 .skill-rows{
 	height: auto;
-	width: 30%;
+	width: 15%;
+	display: inline;
 	/*margin-left: 30px;*/
 	/*padding-right: 10%;*/
 }
@@ -178,7 +179,7 @@ body{
     vertical-align: middle
 }
 .my-work{
-	background-color: gray;
+	background-color: oldlace;
 	padding-top: 50px;
 	padding-bottom: 120px;
 	min-height: 800px;
@@ -205,8 +206,8 @@ body{
 	min-height: 650px;
 	text-align: center;
 	/*padding-top: 85px;*/
-	margin-bottom: 90px;
-	background-color: gray;
+	/*margin-bottom: 90px;*/
+	background-color: ghostwhite;
 	width: 100%;
 }
 .freelance h1{
@@ -242,7 +243,7 @@ a:active {
 
 @media (min-width: 1550px){
     .my-work{
-		background-color: gray;
+		background-color: oldlace;
 		padding-top: 50px;
 		padding-bottom: 120px;
 		min-height: 800px;
@@ -257,7 +258,7 @@ a:active {
 
 @media(min-width: 767px){
 	.my-work{
-		background-color: gray;
+		background-color: oldlace;
 		padding-top: 50px;
 		padding-bottom: 120px;
 		min-height: 800px;
