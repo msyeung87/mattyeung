@@ -28,7 +28,24 @@ $(function(){
     $(this).next('div').addClass("animated").addClass("zoomOut")
   });
 
+    $('.bxslider').bxSlider();
 
+    $(window).scroll({
+            previousTop: 0
+        }, 
+        function () {
+        var currentTop = $(window).scrollTop();
+        if (currentTop < this.previousTop) {
+            $(".top-header").fadeIn();
+        } else {
+            $(".top-header").fadeOut()
+        }
+        this.previousTop = currentTop;
+    });
 
-
+    // footer year update
+    var today = new Date()
+    var year = today.getFullYear()
+    var footerMessage = "© " + year + " | Matt Yeung"
+    $('.bottom-footer').append(footerMessage);
 });

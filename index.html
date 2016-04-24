@@ -3,24 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Matt Yeung</title>
-	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="./css/animate.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<!-- bxSlider Javascript file -->
+	<script src="./js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="./css/jquery.bxslider.css" rel="stylesheet" />
+
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
 	<!-- main/home -->
-	<div class="parallax-window top-main" data-parallax="scroll" data-image-src="./img/wallpaper-min2.jpg">
+	<div class="parallax-window top-main" data-parallax="scroll" data-image-src="./img/macbookpro.jpg">
 		<div class="top-header">
 			<div class="col-sm-12">
-				<a href="#home" class="top-links">Home</a>	
-				<a href="#about" class="top-links">About Me</a>
-				<a href="#work" class="top-links">My Work</a>
-				<a href="#skills" class="top-links">My Skills</a>
-				<a href="#contact" class="top-links">Contact</a>
+				<span class="header-matt">M.Y.</span>
+				<div class="pull-right">
+					<a href="#home">HOME</a>	
+					<a href="#about">ABOUT</a>
+					<a href="#work">WORK</a>
+					<a href="#skills">SKILLS</a>
+					<a href="#contact">CONTACT</a>
+				</div>
 			</div>
 		</div>
 
@@ -29,7 +37,7 @@
 				<h1 class="animated fadeInDown">Matthew Yeung</h1>
 			</div>
 			<div class="matt-title animated fadeInUp">
-				Web Developer | Artist | Car Enthusiast
+				Web Developer | Artist
 			</div>
 		</div>
 	</div>
@@ -56,6 +64,25 @@
 		<div class="freelance-border"></div>
 		<div class="container">
 			<div class="row">
+				<div class="bxslider">
+					<div class="freelance-slider">
+				 		<img src="./img/mtfuji.png" />
+						<a target="_blank" href="http://www.mtfujipa.com/southampton">Launch Website</a>
+					</div>
+				 	<div class="freelance-slider">
+				 		<img src="./img/yourstyleguy.png" />
+				 		<a target="_blank" href="http://www.yourstyleguy.com">Launch Website</a>
+				 	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 	<div class="container freelance" id="freelance">
+		<h1>FREELANCE WORK</h1>
+		<div class="freelance-border"></div>
+		<div class="container">
+			<div class="row">
 				<div class="col-sm-6">
 					<a target="_blank" href="http://www.mtfujipa.com/southampton">
 						<img src="./img/mtfuji.png" class="carit project img-responsive">
@@ -76,7 +103,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 	<!-- projects -->
@@ -233,9 +260,49 @@
 		</div>
 	</div>
 
+	<div class="parallax-window container contact" id="contact" data-parallax="scroll" data-image-src="./img/mackeyboard-min.jpg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Get In Touch</h2>
+				<p>Interested in working together? Fill out the form below with some information about your project. Please allow few business days for me to respond.</p>
+					
+				<form class="contact-form" action="contact.php" method="post" role="form" novalidate="novalidate">
+                    <!--|Action Message|-->
+                    <div class="action-message">
+                        <p class="alert-success contact-success">Your message has been sent!</p>
+                        <p class="alert-danger contact-error">Oops!! You didn't fill all the required field correctly.</p>
+                    </div>
+                    <!--|End Action Message|-->
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="entry-field">
+                                <input id="name" name="name" placeholder="Your Name" required="" type="text">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="entry-field">
+                                <input id="email" name="email" placeholder="info@example.com" required="" type="email">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="entry-field">
+                        <input id="subject" name="subject" placeholder="Subject" type="text">
+                    </div>
+                    <div class="entry-field">
+                        <textarea id="message" rows="8" name="message" placeholder="Tell me about your project..." required=""></textarea>
+                    </div>
+                    <button id="submit" class="btn btn-lg btn-primary" type="submit"><i class="ion-ios-paperplane"></i> Send Mail</button>
+                </form>
+				
+				
+			</div>
+		</div>
+	<!-- </div> -->
+
 	<!-- contact links -->
-	<div class="parallax-window bottom-links" data-parallax="scroll" data-image-src="./img/mackeyboard-min.jpg" id="contact">
-		<div class="container">
+	<!-- <div class="parallax-window bottom-links" data-parallax="scroll" data-image-src="./img/mackeyboard-min.jpg"> -->
 		<div class="row bottom">
 			<a target="_blank" href="https://www.github.com/msyeung87" class="bottom-linksa"> <i class="fa fa-github"></i> Github</a>
 			<a target="_blank" href="https://www.linkedin.com/in/mattyeung" class="bottom-linksa"> <i class="fa fa-linkedin-square"></i> Linkedin</a>
@@ -243,10 +310,10 @@
 			<a href="mailto:csyeung87@gmail.com" class="bottom-linksa"> <i class="fa fa-envelope-o"></i> Email</a>
 			<a target="_blank" href="https://profiles.generalassemb.ly/profiles/matthew-yeung" class="bottom-linksa"> <img class="ga-logo" src="./img/galogo3.png">General Assembly</a>
 		</div>
-		</div>
 	</div>
+	<div class="bottom-footer"></div>
 	
 </body>
-	<script src="./scripts.js"></script>
-	<script src="./parallax.min.js"></script>
+	<script src="./js/scripts.js"></script>
+	<script src="./js/parallax.min.js"></script>
 </html>
