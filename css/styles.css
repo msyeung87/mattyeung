@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #1C5C72;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #1C5C72;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #1C5C72;
 }
 
 .bg-dark {
@@ -94,7 +94,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: #1C5C72;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -112,12 +112,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #1C5C72;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #1C5C72!important;
     background-color: transparent;
 }
 
@@ -158,12 +158,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #1C5C72;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #1C5C72;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -173,7 +173,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #1C5C72;
     }
 }
 
@@ -279,7 +279,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(28, 92, 114, .9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -328,7 +328,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f05f40;
+    color: #1C5C72;
 }
 
 .scroll-down {
@@ -396,9 +396,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #1C5C72;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #1C5C72;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -439,12 +439,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
+    border-color: #1C5C72;
+    background-color: #1C5C72;
 }
 
 .btn-primary .badge {
-    color: #f05f40;
+    color: #1C5C72;
     background-color: #fff;
 }
 
@@ -552,6 +552,15 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+.navbar-fixed-bottom, .navbar-fixed-top{
+    height: 60px;
+}
+.navbar-nav>li>a{
+    padding-top: 5px;
+}
+.navbar-brand{
+    padding-top: 5px;
+}
 
 /*FOOTER*/
 footer {
@@ -570,4 +579,10 @@ footer p.copyright {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     text-transform: none;
+}
+footer div div div a {
+    color: black;
+}
+footer div div div a:hover {
+    color: #1C5C72;
 }
