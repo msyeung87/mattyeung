@@ -586,3 +586,11 @@ footer div div div a {
 footer div div div a:hover {
     color: #1C5C72;
 }
+.send-btn:hover{
+    border-radius: 10px;
+}
+.send-btn{
+    border-radius: 10px;
+    background-color: #1C5C72;
+    color: rgba(255,255,255,.7);
+}
