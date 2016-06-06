@@ -133,7 +133,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #1C5C72;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -183,7 +183,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
