@@ -60,6 +60,11 @@ p {
     background-color: #222;
 }
 
+.headshot{
+width: 250px;
+margin: auto;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
