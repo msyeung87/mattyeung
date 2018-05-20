@@ -28,15 +28,21 @@
 
 
  // animation
-$(window).scroll(function() {
-    $('h2,h3').each(function(){
-    var elementPos = $(this).offset().top;
+// $(window).scroll(function() {
+//     $('h2,h3').each(function(){
+//     var elementPos = $(this).offset().top;
 
-    var topOfWindow = $(window).scrollTop();
-      if (elementPos < topOfWindow+600) {
-        $(this).addClass("animated slideInDown");
-      }
-    });
+//     var topOfWindow = $(window).scrollTop();
+//       if (elementPos < topOfWindow+600) {
+//         $(this).addClass("animated slideInDown");
+//       }
+//     });
 
 
-  });
+//   });
+
+  // Auto update copyright year
+  var d = new Date();
+  var n = d.getFullYear();
+  var copyright = "&copy; " + n + " Matt Yeung"
+  $('.copyright').append(copyright);
